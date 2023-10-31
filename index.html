@@ -1,0 +1,136 @@
+<!--ELVIRA ERICSSON-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silinan Guasini</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mediaQueries.css">
+    <link rel="icon" href="Images/soundwave.jpg" type="image/jpg">
+</head>
+<body>
+    <header>
+        <div class="headerTop" id="jumpToHomePage">
+            <img class="logoImage" src="Images/soundwave.jpg" alt="">
+            <nav>
+                <a href="#jumpToHomePage">Home</a>
+                <a href="#jumpToAboutPage">About</a>
+                <a href="#jumpToAbilityPage">Ability</a>
+                <a href="#jumpToBlogPage">Blog</a>
+                <a href="#jumpToContactPage">Contact</a>
+            </nav>
+        </div>
+        <div class="headerBottom">
+            <h1>SILINAN GUASINI</h1>
+            <h2>DISC JOCKEY</h2>
+            <a href="#jumpToContactPage">Contact Me</a>
+        </div>
+    </header>
+    <section class="infoAboutMe" id="jumpToAboutPage">
+        <div class="infoSection">
+            <h3>Unmatched Expertise</h3>
+            <p>With years of experience spinning the decks, I've honed my skills to perfection. From EDM and hip-hop to pop and rock, I've got an extensive playlist to cater to any musical taste.</p>
+        </div>
+        <div class="infoSection">
+            <h3>Electrifying Performances</h3>
+            <p>I create an electric atmosphere with seamless transitions, remixes, and mind-blowing drops that keep the dance floor packed all night long.</p>
+        </div>
+        <div class="infoSection">
+            <h3>Customized Playlists</h3>
+            <p>I work closely with my clients to curate the perfect playlist for their event. Whether it's a wedding, birthday bash, corporate party, or a festival, I've got the tunes that will set the vibe.</p>
+        </div>
+    </section>
+    <section class="myAbilities" id="jumpToAbilityPage">
+        <div class="ability abilityImageLeft">
+            <img src="Images/console.png" alt="DJ Console">
+            <div class="abilityInfoLeft">
+                <h4>DJ-ing</h4>
+                <p>Are you ready to elevate your event to the next level? Look no further – I am Silinan Guasini, your go-to DJ for unforgettable, heart-pounding music experiences! With a passion for beats that pulse through the night, I'll turn your party into a musical journey you won't soon forget.</p>
+            </div>
+        </div>
+        <div class="ability abilityImageRight">
+            <img src="Images/sing.png" alt="Mic Singing">
+            <div class="abilityInfoRight">
+                <h4>Exceptional Vocal Talent</h4>
+                <p>With a voice that's pure magic, I've dedicated years to perfecting my singing skills. From powerful ballads to upbeat pop hits, I can sing it all.</p>
+            </div>
+        </div>
+        <div class="ability abilityImageLeft">
+            <img src="Images/crowd.png" alt="Crowd Stage">
+            <div class="abilityInfoLeft">
+                <h4>Sound & Lightning</h4>
+                <p>I bring the party to life with a dazzling light show that syncs perfectly with the music, adding that extra wow factor to your event.</p>
+            </div>
+        </div>
+        <div class="ability abilityImageRight">
+            <img src="Images/laptop.png" alt="Laptop">
+            <div class="abilityInfoRight">
+                <h4>Equipment</h4>
+                <p>My top-tier gear ensures that every beat, every note, and every lyric is crystal clear, allowing you to fully immerse yourself in the music.</p>
+            </div>
+        </div>
+    </section>
+    <div class="articleCategories">
+        <section class="threeArticles" id="jumpToBlogPage">
+            <h2>Blog</h2> <!--Fick ej godkänt i validator utan att använda heading i section, har satt display:none på dessa-->
+            <article class="blog">
+                <div>
+                    <h5>Malmö Arena</h5>
+                    <p>Amazing show last night. The selection of tracks was spot on. Every song seemed to hit just the right note and kept us pumped up. Silinan Guasini kept the vibe going and...</p>
+                </div>
+                <img src="Images/stage2.jpeg" alt="Stage Consert">
+            </article>
+            <article class="blog marginArticle">
+                <div>
+                    <h5>SteelStacks</h5>
+                    <p>I was absolutely blown away by the Silinan Guasini's performance last night. From the moment they hit the decks, there was an undeniable connection with the crowd. Their energy was infectious, and it felt like they were taking us on a musical journey that we never wanted to end.</p>
+                </div> 
+                <img src="Images/stage3.jpeg" alt="Stage Consert">
+            </article>
+            <article class="blog marginArticle">
+                <div>
+                    <h5>Madison Square Garden</h5>
+                    <p>Last night, I had the privilege of witnessing one of the most remarkable DJ performances I've ever experienced. The set was a testament to the DJ's passion for their craft, and it shone through in every beat they played. Their enthusiasm was palpable, and it resonated with the crowd, creating an electrifying atmosphere.</p>
+                </div> 
+                <img src="Images/stage1.jpeg" alt="Stage Consert">
+            </article>
+        </section>
+        <aside> <!--display: none; i mobile-portrait/mobile-landscape-->
+            <div class="categoriesAside">
+                <p>Catergories</p>
+                <ul> 
+                    <li><a href="#">Gigs</a></li>
+                    <li><a href="#">Collabs</a></li>
+                    <li><a href="#">Controllers</a></li>
+                    <li><a href="#">Genres</a></li>
+                    <li><a href="#">Clubs</a></li>
+                </ul>
+            </div> 
+        </aside>
+    </div>
+    <section class="contactSection">
+        <h2>Contact</h2> <!--Fick ej godkänt i validator utan att använda heading i section, har satt display:none på dessa-->
+        <form id="jumpToContactPage">
+            <label for="firstName">Firstname</label>
+            <input type="text" id="firstName" name="name" placeholder="Firstname">
+            <label for="firstName">E-mail</label>
+            <input type="text" id="email" name="name" placeholder="E-mail">
+            <label for="textArea">Write me a message!</label>
+            <textarea name="message" id="textArea" cols="8" rows="1"></textarea>
+            <input type="button" id="formButton" value="Send!">
+        </form> 
+    </section>   
+    <footer>
+        <div class="footerInfo">
+            <p>Nordenskiöldsgatan 1 - Malmö, +46 701 44 33 22, 2023-10-10</p>
+        </div>
+        <div class="footerMedia">
+            <img class="footerImage" src="Images/instagram.png" alt="Instagram Icon">
+            <img class="footerImage" src="Images/youtube.png" alt="Youtube Icon">
+            <img class="footerImage" src="Images/facebook.png" alt="Facebook Icon">
+        </div>
+    </footer>
+</body>
+</html>

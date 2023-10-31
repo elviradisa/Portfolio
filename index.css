@@ -1,0 +1,281 @@
+@font-face {
+    font-family: "SixCaps-Regular";
+    src: url("Fonts/SixCaps-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Fahkwang-Regular";
+    src: url("Fonts/Fahkwang-Regular.ttf");
+}
+
+body {
+   margin: 0;
+   font-family: "Fahkwang-Regular";
+}
+
+img {
+    border-radius: 5px;
+}
+
+section h2 {
+    display: none;
+}
+
+/*FOLLOWING CSS IS FOR HEADER + HERO*/
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 5px;
+    padding: 0 10px 0 10px;
+    font-family: "Fahkwang-Regular";
+}
+
+.logoImage {
+    height: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(250, 173, 114);
+}
+
+h1 {
+    font-size: 25px;
+    font-family: "SixCaps-Regular";
+    margin: 0;
+    color: white;
+}
+
+h2 {
+    font-size: 15px;
+    font-family: "SixCaps-Regular";
+    margin: 0;
+}
+
+.headerBottom {
+    background-image: url("Images/palms.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    text-align: center;
+}
+
+.headerBottom a {
+    font-size: 5px;
+    background-color: rgb(255, 158, 84);
+    border: 0.5px solid rgba(0, 0, 0, 0.486);
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.headerBottom a:hover {
+    background-color: rgba(255, 164, 94, 0.541);
+}
+
+/*FOLLOWING CSS IF FOR INFO*/
+
+.infoAboutMe {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.infoSection {
+    width: 33%;
+    font-size: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 5px;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 20px;
+    padding: 5px;
+    color: #b43457;
+}
+
+/*FOLLOWING CSS IS FOR ABILITIES*/
+
+.myAbilities {
+    border-top: 0.5px solid #b43457;
+}
+
+.myAbilities img {
+   height: 60px;
+}
+
+.ability {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.ability p {
+    font-size: 5px;
+}
+
+.abilityInfoRight {
+    margin-right: 10px;
+    text-align: justify;
+    color: #ff8c00;
+}
+
+.abilityInfoLeft {
+    margin-left: 10px;
+    text-align: justify;
+    color: #b43457;
+}
+
+.abilityImageRight {
+    flex-direction: row-reverse ;
+    margin-right: 10px;
+}
+
+h4 {
+    font-size: 8px;
+    text-align: center;
+}
+
+/*FOLLOWING CSS IS FOR BLOG ARTICLES*/
+
+.threeArticles {
+    border-top: 0.5px solid #b43457;
+    padding: 10px;
+    color: #b43457;
+    text-align: center;
+}
+
+.threeArticles img {
+    width: 50px;
+}
+
+.blog {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog p {
+    font-size: 5px;
+    color: grey;
+}
+
+.blog div {
+    margin-right: 10px;
+}
+
+.marginArticle {
+    margin-top: 10px;
+}
+
+h5 {
+    font-size: 8px;
+    margin: 2px 0 2px 0;
+}
+
+/*FOLLOWING CSS IS FOR ASIDE*/
+
+.articleCategories {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    display: none;
+    border: 0.5px solid #b43457;
+    border-radius: 10px;
+    padding: 0 20px 0 20px;
+    margin: 0 20px 0 20px;
+}
+
+.categoriesAside p {
+    font-size: 12px;
+    font-weight: bold;
+    color: #b43457;
+}
+
+li {
+    font-size: 9px;
+}
+
+.categoriesAside a:hover {
+    color: #b43457;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*FOLLOWING CSS IS FOR CONTACT INFORMATIOM*/
+
+form {
+    margin: 10px;
+    border: 0.5px solid #b43457;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+input  {
+    font-size: 5px;
+    width: 90px;
+    margin: 2px 0 2px 0;
+}
+
+label {
+    font-size: 7px;
+}
+
+ #formButton {
+    font-size: 4px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 40px;
+}
+
+#formButton:hover {
+    background-color: #b4345688;
+}
+
+textarea {
+    max-width: 300px;
+}
+
+/*FOLLOWING CSS IS FOR FOOTER*/ 
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 4px;
+    font-family: "Fahkwang-Regular";
+    padding: 0 10px 5px 10px;
+}
+
+.footerInfo {
+    display: flex;
+}
+
+.footerMedia {
+    display: flex;
+}
+
+.footerImage {
+    width: 15px;
+    height: 15px;
+}

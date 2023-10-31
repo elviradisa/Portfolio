@@ -1,0 +1,197 @@
+/*MOBILE LANDSCAPE*/
+@media screen and (min-width: 240px) {
+    /*HEADER*/
+    .headerTop {
+        font-size: 8px;
+    }
+    .logoImage {
+        height: 30px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .headerBottom {
+        padding: 10px 0 10px 40px;
+        text-align: left;
+    }
+    .headerBottom a {
+        font-size: 6px;
+        background-color: rgb(255, 158, 84);
+    }
+    /*INFO*/
+    .infoSection {
+        font-size: 6px;
+    }
+    h3 {
+        font-size: 7px;
+    }
+    /*ABILITIES*/
+    .myAbilities img {
+        height: 60px;
+    }
+    h4 {
+        font-size: 9px;
+    }
+    .ability p {
+        font-size: 6px;
+    }
+    /*BLOG*/
+    .blog p {
+        font-size: 7px;
+    }
+    .threeArticles img {
+        width: 70px;
+    }
+    h5 {
+        font-size: 9px;
+    }
+    /*CONTACT*/
+    label {
+        font-size: 9px;
+    }
+    input  {
+        font-size: 7px;
+    }
+    #formButton {
+        font-size: 6px;
+    }
+    /*FOOTER*/
+    footer {
+        font-size: 6px;
+    }
+}
+
+/*TABLET*/
+@media screen and (min-width: 600px) {
+    /*HEADER*/
+    .headerTop {
+        font-size: 10px;
+        padding: 0 10px 0 10px;
+    }
+    .logoImage {
+        height: 40px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .headerBottom {
+        padding: 40px 0 40px 40px;
+        text-align: left;
+    }
+    .headerBottom a {
+        font-size: 7px;
+        background-color: rgb(255, 158, 84);
+    }
+    /*INFO*/
+    .infoSection {
+        font-size: 8px;
+        padding: 20px 10px 20px 10px;
+        line-height: 15px;
+    }
+    h3 {
+        font-size: 10px;
+        padding: 7px;
+    }
+    /*ABILITIES*/
+    .ability {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .myAbilities img {
+        height: 80px;
+    }
+    h4 {
+        font-size: 12px;
+    }
+    .myAbilities {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .ability p {
+        font-size: 8px;
+    }
+    /*BLOG*/
+    .threeArticles {
+        padding: 20px;
+    }
+    .blog p {
+        font-size: 9px;
+    }
+    h5 {
+        font-size: 12px;
+    }
+    .threeArticles img {
+        width: 90px;
+    }
+    /*ASIDE*/
+    aside {
+        display: block;
+    }
+    /*CONTACT*/
+    form {
+        margin: 20px;
+    }
+    label {
+        font-size: 11px;
+    }
+    input  {
+        font-size: 9px;
+    }
+    #formButton {
+        font-size: 8px;
+    }
+    /*FOOTER*/
+    footer {
+        font-size: 8px;
+        margin: 10px;
+    }
+}
+
+/*COMPUTER SCREEN*/
+@media screen and (min-width: 800px) {
+    /*HEADER*/
+    .headerTop {
+        font-size: 12px;
+        padding: 0 10px 0 10px;
+    }
+    .logoImage {
+        height: 50px;
+    }
+    /*INFO*/
+    .infoSection {
+        font-size: 9px;
+        padding: 20px;
+        line-height: 20px;
+    }
+    h3 {
+        font-size: 10px;
+    }
+    /*ABILITIES*/
+    .myAbilities {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .myAbilities img {
+        height: 100px;
+     }
+    .ability p {
+        line-height: 15px;
+    }
+    /*BLOG*/
+    .blog {
+        flex-direction: row-reverse;
+    }
+    .blog div {
+        margin-left: 20px;
+        line-height: 15px;
+    }
+    .threeArticles img {
+        width: 150px;
+    }
+}   
